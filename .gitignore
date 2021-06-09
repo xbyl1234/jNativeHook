@@ -1,0 +1,12 @@
+
+*.vcxproj
+*.filters
+*.cmake
+CMakeCache.txt
+*.bin
+*.exe
+*.obj
+*.recipe
+*.tlog
+CMakeFiles/
+*.sln
