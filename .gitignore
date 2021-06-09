@@ -10,3 +10,9 @@ CMakeCache.txt
 *.tlog
 CMakeFiles/
 *.sln
+*.class
+.settings/
+bin/
+build/
+*.project
+*.classpath
