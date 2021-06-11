@@ -10,7 +10,7 @@ New plan:
 2. Check method metadata to see if its what I want
 3. if so, run my code, otherwise continue
 
-This seems to be the standard approach in the Minecraft injected client & closet cheating community. My only concern is how well or poorly it will scale with many hooks at once. Also take a look at [Today's update](#U10/06/2021)
+This seems to be the standard approach in the Minecraft injected client & closet cheating community. My only concern is how well or poorly it will scale with many hooks at once. Also take a look at [Today's update](#U10062021)
 
 ## 09/06/2021 Theory
 I have no idea how the frick I'm going to actually pull this off yet, HOWEVER, looking at recaf's disassembly of code, I have *some* idea of how I *might* be able to make the hooks
