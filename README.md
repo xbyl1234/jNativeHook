@@ -10,6 +10,7 @@ I've spotted another [youtube video](https://youtu.be/4Futai_P5gw) that shows of
 3. Native hook on the stub's generated code
 
 I think this is what I need to accomplish...
+Another thing to notice, in the video he is on an IDA window of the jvm.dll. I believe its also some version of Java 8 because its the jvm.dll found in the "server" folder, whereas on Java 11, it would be the one in the "client" folder.
 
 ## T10/06/2021
 Judging by other examples of this being done, (and none of which seeming to be public/open source :/) I have some better idea of how I might be able to do this.
