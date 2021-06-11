@@ -12,7 +12,7 @@ I've spotted another [youtube video](https://youtu.be/4Futai_P5gw) that shows of
 I think this is what I need to accomplish...
 Another thing to notice, in the video he is on an IDA window of the jvm.dll. I believe its also some version of Java 8 because its the jvm.dll found in the "server" folder, whereas on Java 11, it would be the one in the "client" folder.
 
-UPDATE: I was looking through the OpenJDK source. To do this, it appears I would need to hook [here](https://github.com/openjdk/jdk/blob/master/src/hotspot/share/runtime/stubRoutines.hpp#L300), only thing to do now is actually find this function in memory & inspect it to understand where params are and such.
+UPDATE: I was looking through the OpenJDK source. To do this, it appears I would need to hook [here](https://github.com/openjdk/jdk/blob/master/src/hotspot/share/runtime/stubRoutines.hpp#L300), only thing to do now is actually find this function in memory & inspect it to understand where params are and such. [Target being called, helpful for finding it](https://github.com/openjdk/jdk/blob/master/src/hotspot/share/runtime/javaCalls.cpp#L429)
 
 ## T10/06/2021
 Judging by other examples of this being done, (and none of which seeming to be public/open source :/) I have some better idea of how I might be able to do this.
