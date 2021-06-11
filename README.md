@@ -2,6 +2,15 @@
  Hook Java functions and methods from C++
 
 # Theories
+## T11/06/2021
+(In school edition 😀)
+I've spotted another [youtube video](https://youtu.be/4Futai_P5gw) that shows off exactly what I want. Similarly to the ones I've spotted yesterday, it seems that its the exact same method of hooking. This is what I *think* it is:
+1. Watch for method stubs (they have an initialization function I'm pretty sure)
+2. Get the address of the generated native code for the stub (There should be a function that does this, if not there is likely a field)
+3. Native hook on the stub's generated code
+
+I think this is what I need to accomplish...
+
 ## T10/06/2021
 Judging by other examples of this being done, (and none of which seeming to be public/open source :/) I have some better idea of how I might be able to do this.
 
