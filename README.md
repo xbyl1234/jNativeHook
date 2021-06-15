@@ -62,7 +62,7 @@ Been looking at the JRE in Ghidra and found some neat things. First here are som
 
 [Source on OpenJDK](https://github.com/openjdk/jdk/blob/master/src/hotspot/share/runtime/javaCalls.cpp#L346)
 
-### JavaCalls - call_helper function
+### JavaCalls - constructor function
 ``JavaCallWrapper::JavaCallWrapper(const methodHandle& callee_method, Handle receiver, JavaValue* result, TRAPS)``
 
 ``?  89 ?  ?  ?  ?  89 ?  ?  ?  ?  89 ?  ?  ?  ?  89 ?  ?  ?  57 41 ?  41 ?  48 83 ?  ?  48``

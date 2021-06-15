@@ -16,3 +16,6 @@ bin/
 build/
 *.project
 *.classpath
+*.dll
+*.exp
+*.lib
